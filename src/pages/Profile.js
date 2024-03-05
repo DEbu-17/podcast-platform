@@ -29,7 +29,9 @@ let handleLogout = () => {
   return (
     <div>
     <Header/>
-    
+    {
+      user.name && <h1>{user.name}</h1>
+    }
     <Button text="Logout" onClick={handleLogout} />
     </div>
   )
