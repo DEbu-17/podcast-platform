@@ -12,9 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+
     flex-wrap: wrap;
     margin-top: 45px;
+    column-gap: 13.5rem;
+    row-gap: 5rem;
 }
 
 .small-img{

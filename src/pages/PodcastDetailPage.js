@@ -8,8 +8,11 @@ import Button from "../Components/SIgnUpComponents/Button";
 import EpisodeDetails from "../Components/EpisodeDetails";
 import AudioPlayer from "../Components/AudioPlayer";
 
+
+
 function PodcastDetailPage() {
   const { id } = useParams();
+  console.log(id);
   const [podcast, setPodcast] = useState({});
   const [episodes, setEpisodes] = useState([]);
   const navigate = useNavigate();
