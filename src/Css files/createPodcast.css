@@ -38,8 +38,8 @@ form{
 .banner-wrapper img{
     width: 100%;
     height: 220px;
-
-    border-radius: 1rem;
+    object-fit:cover; 
+     border-radius: 1rem;
 }
 
 .podcast-description{
