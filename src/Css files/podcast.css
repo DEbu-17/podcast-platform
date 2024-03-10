@@ -6,17 +6,18 @@
   opacity: 0.7;
   cursor: pointer;
   padding: 0.5rem;
+  position: relative;
 }
 
 .podcast-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     flex-wrap: wrap;
     margin-top: 45px;
-    column-gap: 13.5rem;
-    row-gap: 5rem;
+    column-gap: 120px;
+    row-gap: 2rem;
 }
 
 .small-img{
@@ -45,4 +46,15 @@ a{
 .discover{
     margin-top: 50px;
     font-weight: 400;
+}
+
+.close-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.close-icon:hover{
+    color: red;
 }
